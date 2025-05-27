@@ -3,6 +3,7 @@ db.json
 
 # 環境設定
 venv/
+.venv/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -26,6 +27,3 @@ Thumbs.db
 
 # 暫存目錄
 .pip-cache/
-
-# 其他功能 ETL
-bom/
