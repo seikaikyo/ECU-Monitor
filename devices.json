@@ -1,0 +1,40 @@
+{
+    "devices": [
+        {
+            "id": "ecu1051_1",
+            "name": "1號機",
+            "primary_ip": "10.6.118.52",
+            "backup_ip": "10.6.118.53",
+            "port": 502,
+            "timeout": 3,
+            "retry_interval": 60
+        },
+        {
+            "id": "ecu1051_2",
+            "name": "2號機",
+            "primary_ip": "10.6.118.58",
+            "backup_ip": "10.6.118.59",
+            "port": 502,
+            "timeout": 3,
+            "retry_interval": 60
+        },
+        {
+            "id": "ecu1051_3",
+            "name": "3號機",
+            "primary_ip": "10.6.118.64",
+            "backup_ip": "10.6.118.65",
+            "port": 502,
+            "timeout": 3,
+            "retry_interval": 60
+        },
+        {
+            "id": "ecu1051_4",
+            "name": "4號機",
+            "primary_ip": "10.6.118.70",
+            "backup_ip": "10.6.118.71",
+            "port": 502,
+            "timeout": 3,
+            "retry_interval": 60
+        }
+    ]
+}
