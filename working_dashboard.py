@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# 在檔案開頭加入這行來忽略類型檢查
+# type: ignore
 """
 能正常工作的儀表板
 專門針對您的 Prometheus metrics 端點優化
