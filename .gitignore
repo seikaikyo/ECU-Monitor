@@ -4,6 +4,7 @@ db.json
 # 環境設定
 venv/
 .venv/
+.venv_new/
 __pycache__/
 *.py[cod]
 *$py.class

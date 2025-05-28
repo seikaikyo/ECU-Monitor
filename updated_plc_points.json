@@ -1,0 +1,35 @@
+{
+  "metric_groups": [
+    {
+      "group_name": "實際可用指標",
+      "device_id": 1,
+      "metrics": [
+        {
+          "id": "prometheus_template_text_expansion_failures_total",
+          "name": "Prometheus Template Text Expansion Failures Total",
+          "unit": "℃"
+        },
+        {
+          "id": "prometheus_engine_queries_concurrent_max",
+          "name": "Prometheus Engine Queries Concurrent Max",
+          "unit": "A"
+        },
+        {
+          "id": "prometheus_tsdb_wal_segment_current",
+          "name": "Prometheus Tsdb Wal Segment Current",
+          "unit": "A"
+        },
+        {
+          "id": "net_conntrack_dialer_conn_attempted_total",
+          "name": "Net Conntrack Dialer Conn Attempted Total",
+          "unit": "℃"
+        },
+        {
+          "id": "prometheus_template_text_expansions_total",
+          "name": "Prometheus Template Text Expansions Total",
+          "unit": "℃"
+        }
+      ]
+    }
+  ]
+}

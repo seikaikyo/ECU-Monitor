@@ -1,0 +1,167 @@
+{
+  "metric_groups": [
+    {
+      "group_name": "馬達監控",
+      "device_id": 1,
+      "metrics": [
+        {
+          "id": "motor_current_left_1a",
+          "name": "Motor Current Left 1A",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_left_1b",
+          "name": "Motor Current Left 1B",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_left_2a",
+          "name": "Motor Current Left 2A",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_left_2b",
+          "name": "Motor Current Left 2B",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_nitrogen",
+          "name": "Motor Current Nitrogen",
+          "unit": "A"
+        },
+        {
+          "id": "frequency",
+          "name": "Frequency",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_freq_left_1a",
+          "name": "Motor Freq Left 1A",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_freq_left_1b",
+          "name": "Motor Freq Left 1B",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_freq_left_2a",
+          "name": "Motor Freq Left 2A",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_freq_left_2b",
+          "name": "Motor Freq Left 2B",
+          "unit": "Hz"
+        },
+        {
+          "id": "current_avg",
+          "name": "Current Avg",
+          "unit": "A"
+        },
+        {
+          "id": "current_r",
+          "name": "Current R",
+          "unit": "A"
+        },
+        {
+          "id": "current_s",
+          "name": "Current S",
+          "unit": "A"
+        },
+        {
+          "id": "current_t",
+          "name": "Current T",
+          "unit": "A"
+        }
+      ]
+    },
+    {
+      "group_name": "壓力監控",
+      "device_id": 2,
+      "metrics": [
+        {
+          "id": "damper_cda_pressure",
+          "name": "Damper Cda Pressure",
+          "unit": "A"
+        },
+        {
+          "id": "hepa_pressure_left",
+          "name": "Hepa Pressure Left",
+          "unit": "Pa"
+        },
+        {
+          "id": "hepa_pressure_right",
+          "name": "Hepa Pressure Right",
+          "unit": "Pa"
+        },
+        {
+          "id": "jr2_cda_pressure",
+          "name": "Jr2 Cda Pressure",
+          "unit": "Pa"
+        },
+        {
+          "id": "cda_flow_rate",
+          "name": "Cda Flow Rate",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "group_name": "設備狀態",
+      "device_id": 3,
+      "metrics": [
+        {
+          "id": "hepa_pressure_left",
+          "name": "Hepa Pressure Left",
+          "unit": "Pa"
+        },
+        {
+          "id": "left_aux1a_ct",
+          "name": "Left Aux1A Ct",
+          "unit": ""
+        },
+        {
+          "id": "left_aux1a_mv",
+          "name": "Left Aux1A Mv",
+          "unit": ""
+        },
+        {
+          "id": "left_aux1a_temp_pv",
+          "name": "Left Aux1A Temp Pv",
+          "unit": "℃"
+        },
+        {
+          "id": "left_aux1b_ct",
+          "name": "Left Aux1B Ct",
+          "unit": ""
+        },
+        {
+          "id": "hepa_pressure_right",
+          "name": "Hepa Pressure Right",
+          "unit": "Pa"
+        },
+        {
+          "id": "motor_current_right_1a",
+          "name": "Motor Current Right 1A",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_right_1b",
+          "name": "Motor Current Right 1B",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_right_2a",
+          "name": "Motor Current Right 2A",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_right_2b",
+          "name": "Motor Current Right 2B",
+          "unit": "A"
+        }
+      ]
+    }
+  ]
+}

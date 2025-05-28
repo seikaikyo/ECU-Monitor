@@ -1,0 +1,315 @@
+{
+  "metric_groups": [
+    {
+      "group_name": "溫度監控",
+      "device_id": 1,
+      "metrics": [
+        {
+          "id": "right_aux2a_temp_pv",
+          "name": "Right Aux2A Temp Pv",
+          "unit": "℃"
+        },
+        {
+          "id": "right_heater2a_temp",
+          "name": "Right Heater2A Temp",
+          "unit": "℃"
+        },
+        {
+          "id": "right_outlet_temp_inner_top",
+          "name": "Right Outlet Temp Inner Top",
+          "unit": "℃"
+        },
+        {
+          "id": "left_outlet_temp_middle_bottom",
+          "name": "Left Outlet Temp Middle Bottom",
+          "unit": "℃"
+        },
+        {
+          "id": "left_inlet_temp_inner_bottom",
+          "name": "Left Inlet Temp Inner Bottom",
+          "unit": "℃"
+        },
+        {
+          "id": "right_inlet_temp_middle_middle",
+          "name": "Right Inlet Temp Middle Middle",
+          "unit": "℃"
+        },
+        {
+          "id": "left_aux2b_temp_pv",
+          "name": "Left Aux2B Temp Pv",
+          "unit": "℃"
+        },
+        {
+          "id": "right_aux1b_temp_pv",
+          "name": "Right Aux1B Temp Pv",
+          "unit": "℃"
+        },
+        {
+          "id": "left_oven_temp",
+          "name": "Left Oven Temp",
+          "unit": "℃"
+        },
+        {
+          "id": "right_outlet_temp_middle_bottom",
+          "name": "Right Outlet Temp Middle Bottom",
+          "unit": "℃"
+        }
+      ]
+    },
+    {
+      "group_name": "馬達監控",
+      "device_id": 2,
+      "metrics": [
+        {
+          "id": "motor_current_right_2a",
+          "name": "Motor Current Right 2A",
+          "unit": "A"
+        },
+        {
+          "id": "motor_freq_right_1b",
+          "name": "Motor Freq Right 1B",
+          "unit": "Hz"
+        },
+        {
+          "id": "frequency",
+          "name": "Frequency",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_freq_left_1b",
+          "name": "Motor Freq Left 1B",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_freq_left_2b",
+          "name": "Motor Freq Left 2B",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_current_left_1a",
+          "name": "Motor Current Left 1A",
+          "unit": "A"
+        },
+        {
+          "id": "motor_freq_left_1a",
+          "name": "Motor Freq Left 1A",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_current_right_2b",
+          "name": "Motor Current Right 2B",
+          "unit": "A"
+        },
+        {
+          "id": "motor_freq_right_1a",
+          "name": "Motor Freq Right 1A",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_current_left_2b",
+          "name": "Motor Current Left 2B",
+          "unit": "A"
+        }
+      ]
+    },
+    {
+      "group_name": "電流監控",
+      "device_id": 3,
+      "metrics": [
+        {
+          "id": "motor_current_right_2a",
+          "name": "Motor Current Right 2A",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_left_1b",
+          "name": "Motor Current Left 1B",
+          "unit": "A"
+        },
+        {
+          "id": "scrape_samples_scraped",
+          "name": "Scrape Samples Scraped",
+          "unit": "A"
+        },
+        {
+          "id": "damper_cda_pressure",
+          "name": "Damper Cda Pressure",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_right_1b",
+          "name": "Motor Current Right 1B",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_left_2b",
+          "name": "Motor Current Left 2B",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_nitrogen",
+          "name": "Motor Current Nitrogen",
+          "unit": "A"
+        },
+        {
+          "id": "scrape_samples_post_metric_relabeling",
+          "name": "Scrape Samples Post Metric Relabeling",
+          "unit": "A"
+        },
+        {
+          "id": "motor_current_right_1a",
+          "name": "Motor Current Right 1A",
+          "unit": "A"
+        },
+        {
+          "id": "current_r",
+          "name": "Current R",
+          "unit": "A"
+        }
+      ]
+    },
+    {
+      "group_name": "壓力監控",
+      "device_id": 4,
+      "metrics": [
+        {
+          "id": "cda_flow_rate",
+          "name": "Cda Flow Rate",
+          "unit": ""
+        },
+        {
+          "id": "hepa_pressure_left",
+          "name": "Hepa Pressure Left",
+          "unit": "Pa"
+        },
+        {
+          "id": "damper_cda_pressure",
+          "name": "Damper Cda Pressure",
+          "unit": "A"
+        },
+        {
+          "id": "jr2_cda_pressure",
+          "name": "Jr2 Cda Pressure",
+          "unit": "Pa"
+        },
+        {
+          "id": "hepa_pressure_right",
+          "name": "Hepa Pressure Right",
+          "unit": "Pa"
+        }
+      ]
+    },
+    {
+      "group_name": "設備監控",
+      "device_id": 5,
+      "metrics": [
+        {
+          "id": "motor_freq_right_1b",
+          "name": "Motor Freq Right 1B",
+          "unit": "Hz"
+        },
+        {
+          "id": "motor_freq_left_1b",
+          "name": "Motor Freq Left 1B",
+          "unit": "Hz"
+        },
+        {
+          "id": "left_outlet_temp_middle_bottom",
+          "name": "Left Outlet Temp Middle Bottom",
+          "unit": "℃"
+        },
+        {
+          "id": "hepa_pressure_right",
+          "name": "Hepa Pressure Right",
+          "unit": "Pa"
+        },
+        {
+          "id": "left_aux1a_ct",
+          "name": "Left Aux1A Ct",
+          "unit": ""
+        },
+        {
+          "id": "left_aux2b_ct",
+          "name": "Left Aux2B Ct",
+          "unit": ""
+        },
+        {
+          "id": "right_aux1a_ct",
+          "name": "Right Aux1A Ct",
+          "unit": ""
+        },
+        {
+          "id": "right_inlet_temp_middle_middle",
+          "name": "Right Inlet Temp Middle Middle",
+          "unit": "℃"
+        },
+        {
+          "id": "motor_freq_right_1a",
+          "name": "Motor Freq Right 1A",
+          "unit": "Hz"
+        },
+        {
+          "id": "right_heater1a_temp",
+          "name": "Right Heater1A Temp",
+          "unit": "℃"
+        }
+      ]
+    },
+    {
+      "group_name": "控制監控",
+      "device_id": 6,
+      "metrics": [
+        {
+          "id": "right_aux2a_temp_pv",
+          "name": "Right Aux2A Temp Pv",
+          "unit": "℃"
+        },
+        {
+          "id": "python_gc_objects_uncollectable_total",
+          "name": "Python Gc Objects Uncollectable Total",
+          "unit": ""
+        },
+        {
+          "id": "left_aux2b_ct",
+          "name": "Left Aux2B Ct",
+          "unit": ""
+        },
+        {
+          "id": "left_aux1a_ct",
+          "name": "Left Aux1A Ct",
+          "unit": ""
+        },
+        {
+          "id": "left_aux2a_ct",
+          "name": "Left Aux2A Ct",
+          "unit": ""
+        },
+        {
+          "id": "left_aux2a_mv",
+          "name": "Left Aux2A Mv",
+          "unit": ""
+        },
+        {
+          "id": "python_gc_objects_collected_total",
+          "name": "Python Gc Objects Collected Total",
+          "unit": ""
+        },
+        {
+          "id": "right_aux1a_ct",
+          "name": "Right Aux1A Ct",
+          "unit": ""
+        },
+        {
+          "id": "right_aux2a_ct",
+          "name": "Right Aux2A Ct",
+          "unit": ""
+        },
+        {
+          "id": "power_factor",
+          "name": "Power Factor",
+          "unit": "W"
+        }
+      ]
+    }
+  ]
+}

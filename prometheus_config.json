@@ -1,0 +1,4 @@
+{
+  "prometheus_url": "http://sn.yesiang.com:9090",
+  "note": "這是正確的 Prometheus 端點"
+}

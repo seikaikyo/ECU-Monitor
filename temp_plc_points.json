@@ -1,0 +1,74 @@
+{
+  "metric_groups": [
+    {
+      "group_name": "系統監控 (臨時)",
+      "metrics": [
+        {
+          "id": "go_gc_cycles_automatic_gc_cycles_total",
+          "name": "Go Gc Cycles Automatic Gc Cycles Total",
+          "unit": ""
+        },
+        {
+          "id": "go_gc_cycles_forced_gc_cycles_total",
+          "name": "Go Gc Cycles Forced Gc Cycles Total",
+          "unit": ""
+        },
+        {
+          "id": "go_gc_cycles_total_gc_cycles_total",
+          "name": "Go Gc Cycles Total Gc Cycles Total",
+          "unit": ""
+        },
+        {
+          "id": "go_gc_duration_seconds",
+          "name": "Go Gc Duration Seconds",
+          "unit": ""
+        },
+        {
+          "id": "go_gc_duration_seconds_count",
+          "name": "Go Gc Duration Seconds Count",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "group_name": "網路監控 (臨時)",
+      "metrics": [
+        {
+          "id": "go_gc_duration_seconds",
+          "name": "Go Gc Duration Seconds",
+          "unit": ""
+        },
+        {
+          "id": "go_gc_duration_seconds_count",
+          "name": "Go Gc Duration Seconds Count",
+          "unit": ""
+        },
+        {
+          "id": "go_gc_duration_seconds_sum",
+          "name": "Go Gc Duration Seconds Sum",
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "group_name": "Prometheus 監控 (臨時)",
+      "metrics": [
+        {
+          "id": "prometheus_api_notification_active_subscribers",
+          "name": "Prometheus Api Notification Active Subscribers",
+          "unit": ""
+        },
+        {
+          "id": "prometheus_api_notification_updates_dropped_total",
+          "name": "Prometheus Api Notification Updates Dropped Total",
+          "unit": ""
+        },
+        {
+          "id": "prometheus_api_notification_updates_sent_total",
+          "name": "Prometheus Api Notification Updates Sent Total",
+          "unit": ""
+        }
+      ]
+    }
+  ]
+}
